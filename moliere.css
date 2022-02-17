@@ -44,4 +44,28 @@
 .hen:hover{
     text-shadow:2px 3px 5px maroon;
     }
+
+table{
+        border: 1px solid;
+        margin: 50px;
+            } 
+th{
+        text-align: center;
+        border: 1px solid;
+        color: blueviolet; 
+        padding:10px;
+        
+    }
+    tr:nth-child(even) {
+        background-color:goldenrod;
+        padding:10px;
+        
+      }
+    td
+    {
+        text-align: center;
+        border: 1px solid;
+        color:blue; 
+        padding:10px;
+        }
     
