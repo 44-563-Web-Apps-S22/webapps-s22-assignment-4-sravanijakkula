@@ -44,10 +44,16 @@
 .hen:hover{
     text-shadow:2px 3px 5px maroon;
     }
+.cli{
+    color:brown;
+}
+.cli:hover{
+    text-shadow:2px 3px 5px goldenrod;
+    }
 
 table{
         border: 1px solid;
-        margin: 50px;
+        margin: 40px;
             } 
 th{
         text-align: center;
@@ -57,7 +63,7 @@ th{
         
     }
     tr:nth-child(even) {
-        background-color:goldenrod;
+        background-color:pink;
         padding:10px;
         
       }
