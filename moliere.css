@@ -13,6 +13,7 @@
     font-style: italic;
     margin-bottom:  0px;
 }
+
 .direction{
     font-family:'sans-serif';
     font-size:12.5px ;
@@ -30,3 +31,17 @@
 .scene{
     color: green;
 }
+
+.arm{
+    color:brown;
+    }
+.arm:hover{
+    text-shadow:2px 3px 5px #34eb5e;
+    }
+.hen{
+    color:violet;
+} 
+.hen:hover{
+    text-shadow:2px 3px 5px maroon;
+    }
+    
