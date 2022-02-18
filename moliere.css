@@ -25,30 +25,30 @@
 }
 
 .direction:hover{
-    background-color: yellow;
-    color:darkgoldenrod;
+    background-color: seagreen;
+    color:indigo;
 }
 .scene{
     color: green;
 }
 
 .arm{
-    color:brown;
+    color:navy;
     }
 .arm:hover{
-    text-shadow:2px 3px 5px #34eb5e;
+    text-shadow:2px 3px 5px orange;
     }
 .hen{
-    color:violet;
+    color:royalblue;
 } 
 .hen:hover{
-    text-shadow:2px 3px 5px maroon;
+    text-shadow:2px 3px 5px mediumvioletred;
     }
 .cli{
-    color:brown;
+    color:lemonchiffon;
 }
 .cli:hover{
-    text-shadow:2px 3px 5px goldenrod;
+    text-shadow:2px 3px 5px mediumturquoise;
     }
 
 table{
@@ -61,17 +61,41 @@ th{
         color: blueviolet; 
         padding:10px;
         
-    }
-    tr:nth-child(even) {
+}
+tr:nth-child(even) {
         background-color:pink;
         padding:10px;
         
       }
-    td
-    {
+td{
+    text-align: center;
+    border: 1px solid;
+    color:blue; 
+    padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lavender;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+          
+li {
+    float: left;
+   }
+          
+li a {
+        display: block;
+        color: purple;
         text-align: center;
-        border: 1px solid;
-        color:blue; 
-        padding:10px;
-        }
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+img{
+        margin-bottom: 30px;
+    }
     
